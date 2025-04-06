@@ -31,11 +31,11 @@ if table.find(mapIDs, game.PlaceId) then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/tun9811/testtttttttttttttttfisch/refs/heads/main/script.lua"))()
         --]]
         if game.PlaceId == 18668065416 then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/tun9811/testtttttttttttttttbluelockrivals/refs/heads/main/script.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBLR/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua"))()
         elseif game.PlaceId == 99999183305180 then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/tun9811/testtttttttttttttttbluelockrivals/refs/heads/main/script.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBLR/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua"))()
         elseif game.PlaceId == 92517437168342 then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/tun9811/testtttttttttttttttbluelockrivals/refs/heads/main/script.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBLR/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua"))()
         elseif game.PlaceId == 87039211657390 then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicAC/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua"))()
         elseif game.PlaceId == 128336380114944 then
