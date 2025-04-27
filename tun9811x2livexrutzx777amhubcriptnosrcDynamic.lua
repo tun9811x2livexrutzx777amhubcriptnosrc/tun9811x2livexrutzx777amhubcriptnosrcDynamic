@@ -25,7 +25,6 @@ if table.find(mapIDs, game.PlaceId) then
         --[[
         if game.PlaceId == 16732694052 then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/tun9811/testtttttttttttttttfisch/refs/heads/main/script.lua"))()
-        --]]
         elseif game.PlaceId == 18668065416 then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBLR/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua"))()
         elseif game.PlaceId == 99999183305180 then
@@ -38,6 +37,7 @@ if table.find(mapIDs, game.PlaceId) then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicAC/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua"))()
         elseif game.PlaceId == 72992062125248 then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicH/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua"))()
+                --]]
         end
     end
 else
