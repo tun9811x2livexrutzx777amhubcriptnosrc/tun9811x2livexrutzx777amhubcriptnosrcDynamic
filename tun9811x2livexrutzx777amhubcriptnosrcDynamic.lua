@@ -20,7 +20,7 @@ local Game = {
 }
 for i,v in pairs(Executor) do
     local e = identifyexecutor()
-    if e == v then
+    if table.find(Executor, e) then
         for i,v in pairs(Game) do
             local p = game.PlaceId
             if p == i then
