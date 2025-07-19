@@ -6,6 +6,7 @@ local Executor = {
     "Velocity",
     "Seliware",
     "Swift",
+    "Nucleus",
     -- Mobile
     "Delta",
     "Arceus X",
