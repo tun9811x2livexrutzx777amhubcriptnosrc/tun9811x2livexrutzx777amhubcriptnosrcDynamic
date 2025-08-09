@@ -1,18 +1,22 @@
 local Executor = {
     -- PC
-    "Wave",
-    "AWP",
-    "Synapse Z",
-    "Velocity",
-    "Seliware",
-    "Swift",
+    "Zenith",
+    "Salad",
     "Nucleus",
+    "Wave",
+    "Nihon",
+    "Seliware",
+    "Volcano",
+    "Velocity",
+    "Swift",
     -- Mobile
     "Delta",
     "Arceus X",
     "Codex",
     "Cryptic",
     "Krnl",
+    "Evon",
+    "VegaX"
 }
 
 local Game = {
