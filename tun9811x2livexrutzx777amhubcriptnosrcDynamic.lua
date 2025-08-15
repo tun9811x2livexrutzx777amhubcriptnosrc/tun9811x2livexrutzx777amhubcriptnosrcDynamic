@@ -1,43 +1,14 @@
-local Executor = {
-    -- PC
-    "Zenith",
-    "Salad",
-    "Nucleus",
-    "Wave",
-    "Nihon",
-    "Seliware",
-    "Volcano",
-    "Velocity",
-    "Swift",
-    -- Mobile
-    "Delta",
-    "Arceus X",
-    "Codex",
-    "Cryptic",
-    "Krnl",
-    "Evon",
-    "VegaX"
+local __f = {
+    ['__game'] = function()
+        local g: number = game.PlaceId      
+            if g == 2753915549 or g == 4442272183 or g == 7449423635 then
+            return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBF/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Blox Fruit
+            elseif g == 16281300371 then
+            return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBB/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Blade Ball
+            end
+        end
+    end;
+    ['__load'] = function(s: a): () (load or loadstring)(game:HttpGet(s))() end;
+    ['__executor'] = function() : string return tostring(identifyexecutor()) end;
 }
-
-local Game = {
-    [2753915549] = "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBF/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua", -- Blox Fruit 
-    [4442272183] = "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBF/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua", -- Blox Fruit 
-    [7449423635] = "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBF/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua", -- Blox Fruit 
-    [10449761463] = "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicTHB/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua", -- The Strongest Battlegrounds
-    [126884695634066] = "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicGAG/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Grow a Garden
-}
-
-local executorName = identifyexecutor()
-local placeId = game.PlaceId
-
-if not table.find(Executor, executorName) then
-    game.Players.LocalPlayer:Kick("Script does not support " .. executorName)
-    return
-end
-
-local url = Game[placeId]
-if url then
-    loadstring(game:HttpGet(url))()
-else
-    game.Players.LocalPlayer:Kick("ยังไม่ได้ทำ")
-end
+__f['__load'](__f['__game']())
