@@ -8,8 +8,7 @@ local __f = {
             else
             game.Players.LocalPlayer:Kick()
             end
-        end
-    end;
+        end;
     ['__load'] = function(s: a): () (load or loadstring)(game:HttpGet(s))() end;
     ['__executor'] = function() : string return tostring(identifyexecutor()) end;
 }
