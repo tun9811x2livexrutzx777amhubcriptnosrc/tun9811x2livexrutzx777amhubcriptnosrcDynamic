@@ -5,6 +5,8 @@ local __f = {
             return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBF/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Blox Fruit
             elseif g == 16281300371 then
             return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBB/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Blade Ball
+            else
+            game.Players.LocalPlayer:Kick()
             end
         end
     end;
