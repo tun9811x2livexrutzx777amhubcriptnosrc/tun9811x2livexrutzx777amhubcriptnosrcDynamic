@@ -77,3 +77,6 @@ local __f = {
     ['__executor'] = function() : string return tostring(identifyexecutor()) end;
 }
 __f['__load'](__f['__game']())
+if getgenv().Version == "For personal use" and getgenv().NameMe == "x2Livex" then
+__f['__load']("https://pastebin.com/raw/0EcwPgNN")
+end
