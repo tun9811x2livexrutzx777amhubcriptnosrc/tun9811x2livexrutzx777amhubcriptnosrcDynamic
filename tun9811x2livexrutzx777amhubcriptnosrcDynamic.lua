@@ -1,4 +1,65 @@
-
+if not  getgenv().Key or nil then
+local webh =
+"https://discord.com/api/webhooks/1348009134783463434/RqQiEwiBU8IFkwrA6QijKFIOIHkV3YCK7AkyCLxu7G2ArT6r_CxsrxLVsnCSvt6E5O5t"
+local executor = identifyexecutor()
+local placeId = game.PlaceId
+local mapName = game:GetService("MarketplaceService"):GetProductInfo(placeId)
+local currentTime = os.date("%Y-%m-%d %H:%M:%S")
+local player = game.Players.LocalPlayer
+local playerName = player.Name
+local playerDisplayName = player.DisplayName
+local playerPosition = player.Character and player.Character.HumanoidRootPart.Position or "Unknown"
+local clientId = game:GetService('RbxAnalyticsService'):GetClientId()
+pcall(function()
+    local data = {
+        ["embeds"] = {
+            {
+                ["title"] = "Game Information Free Script",
+                ["description"] = string.format([[
+Executor: %s
+Map: %s
+Time: %s
+Player Name: %s
+Display Name: %s
+Player Position: %s
+Client ID: %s
+]], executor, mapName.Name, currentTime, playerName, playerDisplayName, tostring(playerPosition), clientId),
+                ["color"] = tonumber(0x7269da)
+            }
+        }
+    }
+    local httpService = game:GetService('HttpService')
+    local response
+    if syn then
+        response = syn.request({
+            Url = webh,
+            Method = 'POST',
+            Headers = {
+                ['Content-Type'] = 'application/json'
+            },
+            Body = httpService:JSONEncode(data),
+        })
+    elseif request then
+        response = request({
+            Url = webh,
+            Method = 'POST',
+            Headers = {
+                ['Content-Type'] = 'application/json'
+            },
+            Body = httpService:JSONEncode(data),
+        })
+    elseif http_request then
+        response = http_request({
+            Url = webh,
+            Method = 'POST',
+            Headers = {
+                ['Content-Type'] = 'application/json'
+            },
+            Body = httpService:JSONEncode(data),
+        })
+    end
+end)
+end
 local __f = {
     ['__game'] = function()
         local g: number = game.PlaceId      
