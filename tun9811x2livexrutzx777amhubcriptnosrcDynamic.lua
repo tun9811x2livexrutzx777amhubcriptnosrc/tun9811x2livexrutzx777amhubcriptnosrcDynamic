@@ -71,6 +71,8 @@ local __f = {
                 return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBB/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Blade Ball
             elseif g == 17687504411 then
                 return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicASTTSXXXDD/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- All Star Tower Defense X
+            elseif g == 105555311806207 then
+                return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBAZZZZZZ/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Build A Zoo
             else
             game.Players.LocalPlayer:Kick()
             end
