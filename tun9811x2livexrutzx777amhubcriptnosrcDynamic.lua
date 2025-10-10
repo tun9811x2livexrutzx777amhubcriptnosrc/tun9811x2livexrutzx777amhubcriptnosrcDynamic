@@ -65,12 +65,6 @@ local __f = {
         local g: number = game.PlaceId      
             if g == 2753915549 or g == 4442272183 or g == 7449423635 then
                 return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBF/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Blox Fruit
-            elseif g == 101151419317285 then
-                return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBF_C/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Blox Fruit      
-            elseif g == 16281300371 then
-                return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBB/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Blade Ball
-            elseif g == 17687504411 then
-                return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicASTTSXXXDD/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- All Star Tower Defense X
             elseif g == 105555311806207 then
                 return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBAZZZZZZ/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Build A Zoo
             else
