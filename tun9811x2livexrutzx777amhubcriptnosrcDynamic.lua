@@ -67,6 +67,8 @@ local __f = {
                 return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBF/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Blox Fruit
             elseif g == 105555311806207 then
                 return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBAZZZZZZ/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Build A Zoo
+            elseif g == 90462358603255 then
+                return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicAEAEAEAE/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Anime Eternal
             else
             game.Players.LocalPlayer:Kick()
             end
