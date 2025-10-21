@@ -64,7 +64,7 @@ local __f = {
     ['__game'] = function()
         local g: number = game.PlaceId      
             if g == 2753915549 or g == 4442272183 or g == 7449423635 then
-                return "https://cdn.authguard.org/virtual-file/0cac248b2ba24501ae33863462f6d008" -- Blox Fruit
+                return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBF/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Blox Fruit
             elseif g == 105555311806207 then
                 return "https://raw.githubusercontent.com/tun9811x2livexrutzx777amhubcriptnosrc/tun9811x2livexrutzx777amhubcriptnosrcDynamicBAZZZZZZ/refs/heads/main/tun9811x2livexrutzx777amhubcriptnosrcDynamic.lua" -- Build A Zoo
             elseif g == 90462358603255 then
